@@ -59,11 +59,11 @@ function Home()
           </div>
 
 
-          <div className="hidden" id="addCategory">
+          <div className="hidden " id="addCategory">
           <hr className="w-full mt-6 mb-6 bg-teal-500"/>
-            <div className="bg-teal-200 text-black text-xl">
-              <h1></h1>
-              <button className="bg-teal-500 hover:bg-teal-600 text-white flex font-bold py-2 px-4 rounded" onClick={addCategory}>Add Item</button>
+            <div className="bg-teal-200 w-1/3 h-1/3 rounded flex justify-between text-black text-xl">
+              <h1 className="text-teal-900">Daily Expenses</h1>
+              <button className="w-38 h-16 bg-teal-500 hover:bg-teal-600 text-white font-bold p-4 rounded" onClick={addCategory}>Add Item</button>
             </div>
           </div>
         </>

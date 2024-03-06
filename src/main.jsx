@@ -11,7 +11,7 @@ import Contact from './pages/Contact.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path='/home' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path="/feedback" element={<Feedback/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Route>
@@ -21,6 +21,5 @@ const router = createBrowserRouter(
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <RouterProvider router={router}/>
-   
   </React.StrictMode>,
 )
