@@ -7,11 +7,13 @@ import Home from './pages/Home.jsx'
 import Feedback from './pages/Feedback.jsx'
 import Layout from './Layout.jsx'
 import Contact from './pages/Contact.jsx'
+import Landing from './pages/Landing.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/' element={<Landing/>}/>
+      <Route path='/home' element={<Home/>}/>
       <Route path="/feedback" element={<Feedback/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Route>

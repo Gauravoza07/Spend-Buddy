@@ -9,7 +9,7 @@ export default function Layout()
         <>
             <div className="fixed w-full z-50"><Navbar/></div>
             <div className="p-16"><Outlet/></div>
-            <div className="fixed bottom-0 w-full"><Footer/></div>
+            <div className="bottom-0 w-full"><Footer/></div>
         </>
     )
 }
